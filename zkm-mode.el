@@ -120,6 +120,7 @@ For detail, see `comment-dwim'."
   "Syntax table used in ZKM mode.")
 
 ;; define the major mode.
+;;;###autoload
 (defun zkm-mode ()
   "Major mode for editing ZKM script."
   (interactive)
